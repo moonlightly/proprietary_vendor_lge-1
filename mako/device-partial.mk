@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # LGE blob(s) necessary for Mako hardware
-PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
     vendor/lge/mako/proprietary/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
     vendor/lge/mako/proprietary/libacdbdata.so:system/lib/libacdbdata.so \
@@ -186,5 +186,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/mako/proprietary/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
 
-PRODUCT_PACKAGES += libacdbloader
+PRODUCT_PACKAGES := libacdbloader
 
